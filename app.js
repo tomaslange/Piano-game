@@ -12,6 +12,7 @@ keys.forEach(key => {
 })
 
 document.addEventListener('keydown', e => {
+   if(e.repeat) return;
    const key = e.key;
    const whiteKeyIndex = whiteKey.indexOf(key);
    const blackKeyIndex = blackKey.indexOf(key);
