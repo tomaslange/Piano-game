@@ -1,5 +1,5 @@
 // Selected key for each button
-const whiteKey = ['z','x','c','v','b','n','m'];
+const whiteKey = ['y','x','c','v','b','n','m'];
 const blackKey = ['s','d','g','h','j'];
 
 const keys = document.querySelectorAll('.key');
